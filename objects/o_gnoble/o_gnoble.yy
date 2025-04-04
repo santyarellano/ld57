@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_player",
+  "%Name":"o_gnoble",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_player",
+  "name":"o_gnoble",
   "overriddenProperties":[],
   "parent":{
     "name":"Entities",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_burt_idle",
-    "path":"sprites/s_burt_idle/s_burt_idle.yy",
+    "name":"s_gnoble_idle",
+    "path":"sprites/s_gnoble_idle/s_gnoble_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
