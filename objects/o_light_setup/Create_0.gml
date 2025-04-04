@@ -1,0 +1,1 @@
+u_light_src_pos = shader_get_uniform(shd_light, "u_light_src_pos");
