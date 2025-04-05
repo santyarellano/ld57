@@ -23,13 +23,7 @@ switch (room) {
 
 #region Update Transitions
 
-switch (transition_state) {
-	case TRANSITION_STATE.OFF:
-	break;
-	
-	case TRANSITION_STATE.ON:
-	break;
-	
+switch (transition_state) {	
 	case TRANSITION_STATE.IN:
 		// fade in
 		if (transition_val < 1.0) {
@@ -55,6 +49,11 @@ switch (transition_state) {
 			transition_state = TRANSITION_STATE.OFF;
 		}
 	break;
+	
+	default:
+	break;
 }
 
 #endregion
+
+

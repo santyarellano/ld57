@@ -1,5 +1,5 @@
 // Initialize game settings
-global.GAME_TITLE = "Game-Debt";
+global.GAME_TITLE = "Work-life Balance";
 global.STUDIO_NAME = "<Untitled>\nGames";
 
 // Window dimensions

@@ -30,7 +30,8 @@ else if sanity <= 33 {
 	draw_set_color(c_red);	
 }
 #endregion
-var sanity_text = "Sanity: " + string(clamp(round(sanity), 0, 100)) + "%";
+var exhaustion = clamp(round(100 - sanity), 0, 100);// inverse of sanity
+var sanity_text = "Exhaustion: " + string(exhaustion) + "%";
 draw_text_transformed(sanity_x, y_text_pos, sanity_text, text_scale, text_scale, 0);
 draw_set_color(text_color);
 

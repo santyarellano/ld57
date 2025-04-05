@@ -1,1 +1,1 @@
-transition_goto_room(r_main_menu);
+transition_goto_room(r_level);
