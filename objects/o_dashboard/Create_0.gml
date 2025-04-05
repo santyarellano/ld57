@@ -24,7 +24,7 @@ sanity = 100;
 sanity_base_dmg = 0.015;
 wallet_dmg = 0.0;
 
-sleep_base_heal = 0.03;
+sleep_base_heal = 0.04;
 sleep_heal = 0;
 
 var tick_duration_secs = 0.5;

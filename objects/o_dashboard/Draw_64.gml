@@ -22,31 +22,7 @@ var expenses_text = "Expenses: $" + string(expenses);
 draw_text_transformed(expenses_x, y_text_pos, expenses_text, text_scale, text_scale, 0);
 
 // Sanity
-var sanity_emoji = "";
-
-#region choose emoji
-if sanity > 66 {
-	sanity_emoji = ":)";	
-}
-else if sanity <= 66 && sanity > 33 {
-	draw_set_color(c_yellow);
-	sanity_emoji = ":|";	
-}
-else if sanity <= 33 && sanity > 20{
-	draw_set_color(c_red);
-	sanity_emoji = ":(";	
-}
-else if sanity <= 20 && sanity > 10{
-	draw_set_color(c_red);
-	sanity_emoji = ":'(";	
-}
-else {
-	draw_set_color(c_red);
-	sanity_emoji = ":O";	
-}
-#endregion
-
-var sanity_text = "Sanity: " + sanity_emoji;
+var sanity_text = "Sanity: " + string(round(sanity)) + "%";
 draw_text_transformed(sanity_x, y_text_pos, sanity_text, text_scale, text_scale, 0);
 draw_set_color(text_color);
 
