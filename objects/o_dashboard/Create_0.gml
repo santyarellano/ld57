@@ -17,7 +17,7 @@ sanity_x = x_base * 8.5;
 clock_x = x_base * 11;
 
 clock = 0;
-wallet = 0;
+wallet = -100;
 expenses = 10;
 sanity = 100;
 

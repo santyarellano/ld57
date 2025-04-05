@@ -14,7 +14,7 @@ ui_data = [
 	},
 	{
 		type: UI_TYPE.Text,
-		text_val: "It seems your dream cost you your sanity.\nNo more dreams for you!",
+		text_val: "Your dream cost you your sanity.\nNo more dreams for you!",
 		font: f_press_start,
 		scale: 1.5,
 		h_align: fa_center,
@@ -32,7 +32,7 @@ ui_data = [
 		v_align: fa_middle,
 		color: c_white,
 		pos_x: global.w_width/2,
-		pos_y: global.w_height/2 + global.w_height/20 * 2
+		pos_y: global.w_height/2 + global.w_height/20 * 3
 	},
 ];
 
