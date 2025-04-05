@@ -44,6 +44,7 @@
     {"id":{"name":"f_bytesized","path":"fonts/f_bytesized/f_bytesized.yy",},},
     {"id":{"name":"f_press_start","path":"fonts/f_press_start/f_press_start.yy",},},
     {"id":{"name":"o_bed","path":"objects/o_bed/o_bed.yy",},},
+    {"id":{"name":"o_button_desk","path":"objects/o_button_desk/o_button_desk.yy",},},
     {"id":{"name":"o_button_games","path":"objects/o_button_games/o_button_games.yy",},},
     {"id":{"name":"o_button_sleep","path":"objects/o_button_sleep/o_button_sleep.yy",},},
     {"id":{"name":"o_button_work","path":"objects/o_button_work/o_button_work.yy",},},

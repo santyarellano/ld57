@@ -10,8 +10,8 @@
     "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":{
-    "name":"o_button",
-    "path":"objects/o_button/o_button.yy",
+    "name":"o_button_desk",
+    "path":"objects/o_button_desk/o_button_desk.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

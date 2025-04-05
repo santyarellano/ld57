@@ -21,7 +21,7 @@ wallet = 0;
 expenses = 100;
 sanity = 100;
 
-sanity_base_dmg = 0.01;
+sanity_base_dmg = 0.015;
 
 var tick_duration_secs = 1.5;
 clock_base = game_get_speed(gamespeed_fps) * tick_duration_secs; // fps * X = X seconds

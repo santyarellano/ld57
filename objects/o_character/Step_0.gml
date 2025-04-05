@@ -26,6 +26,12 @@ if place_meeting(x, y+v_speed, o_entity) {
 x += h_speed;
 y += v_speed;
 
+// clear input
+in_down = 0;
+in_up = 0;
+in_left = 0;
+in_right = 0;
+
 #endregion
 
 #region animations
