@@ -2,7 +2,7 @@ varying vec2 pos;
 
 uniform vec2 u_light_src_pos;
 
-const float zz = 10.;
+const float zz = 32.;
 
 void main() {
 	vec2 dist = pos - u_light_src_pos;

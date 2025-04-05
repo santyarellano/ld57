@@ -60,6 +60,7 @@
     {"id":{"name":"scr_transitions","path":"scripts/scr_transitions/scr_transitions.yy",},},
     {"id":{"name":"scr_ui_helpers","path":"scripts/scr_ui_helpers/scr_ui_helpers.yy",},},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},},
+    {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},},
     {"id":{"name":"s_burt_idle","path":"sprites/s_burt_idle/s_burt_idle.yy",},},
     {"id":{"name":"s_burt_walk","path":"sprites/s_burt_walk/s_burt_walk.yy",},},
     {"id":{"name":"s_gnoble_idle","path":"sprites/s_gnoble_idle/s_gnoble_idle.yy",},},
