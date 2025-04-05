@@ -12,6 +12,10 @@ switch (room) {
 		ui_data = get_ui_data(o_game_over_mgr);
 	break;
 	
+	case r_victory:
+		ui_data = get_ui_data(o_win_mgr);
+	break;
+	
 	default:
 		ui_data = [];
 	break;

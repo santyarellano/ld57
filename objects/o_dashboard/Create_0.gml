@@ -17,7 +17,7 @@ sanity_x = x_base * 8.5;
 clock_x = x_base * 11;
 
 clock = 0;
-wallet = -100;
+wallet = 0;
 expenses = 10;
 sanity = 100;
 
@@ -27,7 +27,7 @@ wallet_dmg = 0.0;
 sleep_base_heal = 0.04;
 sleep_heal = 0;
 
-var tick_duration_secs = 0.5;
+var tick_duration_secs = 1.5;
 hour = game_get_speed(gamespeed_fps) * tick_duration_secs; // fps * X = X seconds
 clock_counter = hour;
 

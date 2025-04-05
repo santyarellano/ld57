@@ -1,0 +1,41 @@
+
+// UI data
+ui_data = [
+	{
+		type: UI_TYPE.Text,
+		text_val: "You made it!",
+		font: f_press_start,
+		scale: 3,
+		h_align: fa_center,
+		v_align: fa_middle,
+		color: c_white,
+		pos_x: global.w_width/2,
+		pos_y: global.w_height/2  - global.w_height/10
+	},
+	{
+		type: UI_TYPE.Text,
+		text_val: "Your dream came true!\nYou have enough to quit your job and\nlive off your games!",
+		font: f_press_start,
+		scale: 1.5,
+		h_align: fa_center,
+		v_align: fa_middle,
+		color: c_white,
+		pos_x: global.w_width/2,
+		pos_y: global.w_height/2 + global.w_height/20
+	},
+	{
+		type: UI_TYPE.Text,
+		text_val: "Press Enter to continue",
+		font: f_press_start,
+		scale: 1,
+		h_align: fa_center,
+		v_align: fa_middle,
+		color: c_white,
+		pos_x: global.w_width/2,
+		pos_y: global.w_height/2 + global.w_height/20 * 3
+	},
+];
+
+selected_alpha = 1.0;
+min_alpha = 0.5;
+fade_speed = 0.6;
