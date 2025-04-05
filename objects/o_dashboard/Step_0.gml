@@ -85,3 +85,9 @@ if sanity <= 0 {
 	// game over
 	transition_goto_room(r_game_over);
 }
+
+// check if won the game
+if wallet >= win_score {
+	// win
+	transition_goto_room(r_victory);
+}

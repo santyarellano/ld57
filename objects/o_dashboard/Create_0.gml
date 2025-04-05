@@ -17,7 +17,7 @@ sanity_x = x_base * 8.5;
 clock_x = x_base * 11;
 
 clock = 0;
-wallet = 0;
+wallet = 95;
 expenses = 10;
 sanity = 100;
 
@@ -42,3 +42,5 @@ game_counter = game_base_counter;
 prev_game_income = 5;
 game_income_range_up = 1;
 game_income_range_down = game_income_range_up / 2;
+
+win_score = 100;
