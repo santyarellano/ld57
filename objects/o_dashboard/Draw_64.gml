@@ -22,6 +22,14 @@ var expenses_text = "Expenses: $" + string(expenses);
 draw_text_transformed(expenses_x, y_text_pos, expenses_text, text_scale, text_scale, 0);
 
 // Sanity
+#region choose color
+if sanity <= 66 && sanity > 33 {
+	draw_set_color(c_yellow);
+}
+else if sanity <= 33 {
+	draw_set_color(c_red);	
+}
+#endregion
 var sanity_text = "Sanity: " + string(round(sanity)) + "%";
 draw_text_transformed(sanity_x, y_text_pos, sanity_text, text_scale, text_scale, 0);
 draw_set_color(text_color);

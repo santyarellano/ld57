@@ -54,6 +54,7 @@
     {"id":{"name":"o_desk_spot","path":"objects/o_desk_spot/o_desk_spot.yy",},},
     {"id":{"name":"o_desk","path":"objects/o_desk/o_desk.yy",},},
     {"id":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},},
+    {"id":{"name":"o_game_over_mgr","path":"objects/o_game_over_mgr/o_game_over_mgr.yy",},},
     {"id":{"name":"o_gnoble","path":"objects/o_gnoble/o_gnoble.yy",},},
     {"id":{"name":"o_gui_obj","path":"objects/o_gui_obj/o_gui_obj.yy",},},
     {"id":{"name":"o_keyboard","path":"objects/o_keyboard/o_keyboard.yy",},},
@@ -64,6 +65,7 @@
     {"id":{"name":"o_sleep_spot","path":"objects/o_sleep_spot/o_sleep_spot.yy",},},
     {"id":{"name":"o_splash_mgr","path":"objects/o_splash_mgr/o_splash_mgr.yy",},},
     {"id":{"name":"o_ui_mgr","path":"objects/o_ui_mgr/o_ui_mgr.yy",},},
+    {"id":{"name":"r_game_over","path":"rooms/r_game_over/r_game_over.yy",},},
     {"id":{"name":"r_level","path":"rooms/r_level/r_level.yy",},},
     {"id":{"name":"r_main_menu","path":"rooms/r_main_menu/r_main_menu.yy",},},
     {"id":{"name":"r_splash","path":"rooms/r_splash/r_splash.yy",},},
@@ -88,6 +90,7 @@
     {"roomId":{"name":"r_splash","path":"rooms/r_splash/r_splash.yy",},},
     {"roomId":{"name":"r_main_menu","path":"rooms/r_main_menu/r_main_menu.yy",},},
     {"roomId":{"name":"r_level","path":"rooms/r_level/r_level.yy",},},
+    {"roomId":{"name":"r_game_over","path":"rooms/r_game_over/r_game_over.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

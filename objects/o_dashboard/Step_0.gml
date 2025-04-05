@@ -78,4 +78,10 @@ sanity += sanity_mod;
 if sanity > 100 { // cap sanity at 100
 	sanity = 100;	
 }
-show_debug_message("sanity: " + string(sanity) + ", mod: " + string(sanity_mod));
+//show_debug_message("sanity: " + string(sanity) + ", mod: " + string(sanity_mod));
+
+// check if game over
+if sanity <= 0 {
+	// game over
+	transition_goto_room(r_game_over);
+}

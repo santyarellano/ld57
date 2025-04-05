@@ -36,7 +36,7 @@ work_income = 1;
 work_base_dmg = 0.015;
 work_dmg = 0;
 
-var game_hours_duration = 24
+var game_hours_duration = 24 * 2;
 game_base_counter = hour * game_hours_duration;
 game_counter = game_base_counter;
 prev_game_income = 5;
