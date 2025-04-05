@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_view_mgr",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_desk",
+  "eventList":[],
   "managed":true,
-  "name":"o_view_mgr",
+  "name":"o_desk",
   "overriddenProperties":[],
   "parent":{
-    "name":"Managers",
-    "path":"folders/Objects/Managers.yy",
+    "name":"Entities",
+    "path":"folders/Objects/Entities.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_desk",
+    "path":"sprites/s_desk/s_desk.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
