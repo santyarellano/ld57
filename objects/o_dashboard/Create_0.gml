@@ -24,10 +24,10 @@ sanity = 100;
 sanity_base_dmg = 0.015;
 wallet_dmg = 0.0;
 
-sleep_base_heal = 0.04;
+sleep_base_heal = 0.06;
 sleep_heal = 0;
 
-var tick_duration_secs = 0.5;
+var tick_duration_secs = 1.5;
 hour = game_get_speed(gamespeed_fps) * tick_duration_secs; // fps * X = X seconds
 clock_counter = hour;
 

@@ -12,9 +12,7 @@ var bar_width = 140;
 var bar_height = 4;
 
 // round progress
-show_debug_message("normal progress: " + string(progress));
 progress = round_to_nearest_05(progress);
-show_debug_message("rounded progress: " + string(round_to_nearest_05(progress)));
 
 // draw progres
 if progress >= 0.05{
@@ -27,7 +25,5 @@ if progress >= 0.05{
 	draw_set_alpha(1.0);
 	draw_rectangle(x0, y0, x1, y1, false);
 	draw_set_alpha(1.0);
-	
-	show_debug_message("x0: " + string(x0) + ", x1: "+ string(x1));
 }
 
