@@ -15,7 +15,7 @@ if wallet < 0 {
 }
 var wallet_text = "Wallet: $" + string(wallet);
 draw_text_transformed(wallet_x, y_text_pos, wallet_text, text_scale, text_scale, 0);
-draw_set_font(text_font);
+draw_set_color(text_color);	
 
 // Expenses
 var expenses_text = "Expenses: $" + string(expenses);

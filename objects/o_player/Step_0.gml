@@ -24,7 +24,8 @@ switch state {
 			in_right = 1;	
 		}
 		else {
-			state = target_task;	
+			// arrived to target
+			state = target_task;
 		}
 	break;
 	
@@ -32,6 +33,20 @@ switch state {
 	break;
 }
 
+// reposition if was sleeping
+if state != PLAYER_STATE.Sleeping {
+	if x == o_sleep_spot.x && y == o_sleep_spot.y {
+		x = o_bed_spot.x;
+		y = o_bed_spot.y;
+	}
+}
+
 // Inherit the parent event
 event_inherited();
 
+// override animation if sleeping
+if state == PLAYER_STATE.Sleeping {
+	sprite_index = s_burt_sleep;
+	x = o_sleep_spot.x;
+	y = o_sleep_spot.y;
+}
