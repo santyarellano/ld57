@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_button_desk",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_bed_spot",
+  "eventList":[],
   "managed":true,
-  "name":"o_button_desk",
+  "name":"o_bed_spot",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"misc",
+    "path":"folders/Objects/misc.yy",
   },
-  "parentObjectId":{
-    "name":"o_button",
-    "path":"objects/o_button/o_button.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_target",
+    "path":"sprites/s_target/s_target.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"o_button_games",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_button_games",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":{
-    "name":"o_button_desk",
-    "path":"objects/o_button_desk/o_button_desk.yy",
+    "name":"o_button",
+    "path":"objects/o_button/o_button.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

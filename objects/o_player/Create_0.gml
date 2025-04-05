@@ -11,4 +11,4 @@ enum PLAYER_STATE {
 
 target = o_desk_spot;
 target_task = PLAYER_STATE.None;
-state = PLAYER_STATE.Walking;
+state = PLAYER_STATE.None;

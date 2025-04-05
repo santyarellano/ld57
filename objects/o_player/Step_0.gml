@@ -1,3 +1,11 @@
+// set target
+if target_task == PLAYER_STATE.Sleeping {
+	target = o_bed_spot;
+}
+else if target_task == PLAYER_STATE.Working || target_task == PLAYER_STATE.Gamedev {
+	target = o_desk_spot;	
+}
+
 // add input if walking
 switch state {
 	case PLAYER_STATE.Walking:
