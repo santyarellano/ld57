@@ -49,6 +49,7 @@
     {"id":{"name":"o_button_work","path":"objects/o_button_work/o_button_work.yy",},},
     {"id":{"name":"o_button","path":"objects/o_button/o_button.yy",},},
     {"id":{"name":"o_character","path":"objects/o_character/o_character.yy",},},
+    {"id":{"name":"o_dashboard","path":"objects/o_dashboard/o_dashboard.yy",},},
     {"id":{"name":"o_desk_spot","path":"objects/o_desk_spot/o_desk_spot.yy",},},
     {"id":{"name":"o_desk","path":"objects/o_desk/o_desk.yy",},},
     {"id":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},},
