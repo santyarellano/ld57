@@ -18,7 +18,7 @@ clock_x = x_base * 11;
 
 clock = 0;
 wallet = 0;
-expenses = 10;
+expenses = 0;
 sanity = 100;
 
 sanity_base_dmg = 0.015;
@@ -32,7 +32,7 @@ hour = game_get_speed(gamespeed_fps) * tick_duration_secs; // fps * X = X second
 clock_counter = hour;
 
 work_counter = hour;
-work_income = 1;
+work_income = 0;
 work_base_dmg = 0.015;
 work_dmg = 0;
 

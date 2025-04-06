@@ -38,3 +38,30 @@ function get_ui_data(obj) {
 	
 	return [];
 }
+
+function draw_event(positive_bad, event_mod, mod_name, x0, y0, scale) {
+	var event_sign = sign(event_mod);
+	var sign_text = "+";
+	if event_sign < 0 {
+		sign_text = "-";	
+	}
+	
+	// choose color according to value and if positive is bad
+	var effect_sign = event_sign;
+	if positive_bad {
+		effect_sign *= -1;	
+	}
+	
+	if effect_sign > 0 {
+		draw_set_color(c_green);
+	} else if effect_sign < 0 {
+		draw_set_color(c_red);
+	}
+	
+	var event_text = mod_name + ": " + sign_text + string(event_mod);
+	
+	// draw text
+	draw_text_transformed(x0, y0, event_text, scale, scale, 0);
+	
+	draw_set_color(c_black);
+}

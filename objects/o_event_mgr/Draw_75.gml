@@ -47,6 +47,7 @@ if is_showing_event {
 	#endregion
 	
 	#region Draw title
+	
 	var window_padding = 20;
 	var title_x = x0 + default_border + window_padding;
 	var title_y = y0 + top_height + window_padding;
@@ -56,6 +57,49 @@ if is_showing_event {
 	draw_set_color(c_black);
 	draw_set_font(f_press_start);
 	draw_text_transformed(title_x, title_y, event.title, title_scale, title_scale, 0);
+	
+	#endregion
+	
+	#region Draw text
+	
+	var text_x = x0 + default_border + window_padding;
+	var f_size = font_get_size(f_press_start)
+	var text_y = y0 + top_height + window_padding + f_size * title_scale + 40;
+	var text_scale = 1;
+	var text_area_w = window_w - window_padding * 2 - default_border * 2 - 20;
+	draw_text_ext_transformed(text_x, text_y, event.text, f_size + 8, text_area_w, text_scale, text_scale, 0);
+	
+	#endregion
+
+	#region Draw effects
+	
+	var effect_x = x0 + default_border + window_padding;
+	var effect_y_start = y1 - window_padding - default_border - 200;
+	var effect_jump = f_size + 20;
+	
+	// sanity mod
+	var exhaustion_val = -event.sanity_mod;  
+	draw_event(true, exhaustion_val, "Exhaustion", effect_x, effect_y_start, text_scale);
+	
+	// wallet mod
+	draw_event(false, event.wallet_mod, "Wallet", effect_x, effect_y_start + effect_jump, text_scale);
+	
+	// income mod
+	draw_event(false, event.income_mod, "Job Salary", effect_x, effect_y_start + effect_jump * 2, text_scale);
+	
+	// expenses mod
+	draw_event(true, event.expenses_mod, "Daily Expenses", effect_x, effect_y_start + effect_jump * 3, text_scale);
+	
+	// reset color
+	draw_set_color(c_black);
+	
+	#endregion
+
+	#region draw Press Enter to Continue...
+	
+	var enter_x = x0 + default_border + window_padding;
+	var enter_y = y1 - window_padding - default_border - 20;
+	draw_text_transformed(enter_x, enter_y, "[Press Enter to continue.]", text_scale, text_scale, 0);
 	
 	#endregion
 
