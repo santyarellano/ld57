@@ -12,3 +12,14 @@ function round_to_nearest_05(val) {
 	
 	return mult;
 }
+
+function finished_game(wallet_mod) {
+	o_event_mgr.is_showing_event = true;
+	var event = o_event_mgr.game_finished_event;
+	event.wallet_mod = wallet_mod;
+	o_event_mgr.event = event;
+}
+
+function day_event() {
+	
+}

@@ -56,13 +56,11 @@ if !global.pause {
 				var upper_limit = prev_game_income + prev_game_income * game_income_range_up;
 				var game_income = round(random_range(lower_limit, upper_limit));
 			
-				// update wallet
-				wallet += game_income;
+				// trigger event
+				finished_game(game_income);
 			
 				// update prev income
 				prev_game_income = game_income;
-			
-				// todo: report game results
 			
 				#endregion
 			}

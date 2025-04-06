@@ -3,11 +3,65 @@ is_showing_event = true;
 window_color = make_color_rgb(250, 237, 200);
 c_border_blue = make_color_rgb(50, 92, 230);
 
+// start event
 event = {
 	title: "So, you have a dream...",
-	text: "Want to be a game developer? Ha! Good luck! The market is tough right now, and no company will hire you. Better keep working at your soul-crushing job. Or will you try to juggle them both? Careful though, exhaustion will drive you to insanity, and no one wants to end up like that! Or will you leave your job aside and get deep in debt in hopes of making it? Debts can be pretty stressful! How well can you rest knowing there are bills to pay? \n\nYes, it is tough indeed...",
+	text: "Want to be a game developer? Ha! Good luck! The market is tough right now, and no company will hire you. Better keep working at your soul-crushing job. Or will you try to juggle them both? Careful though, exhaustion will drive you to insanity, and no one wants to end up like that! Or will you leave your job aside and get deep in debt in hopes of making it? Debts can be pretty stressful! How well can you rest knowing there are bills to pay? \n\nYes, it is tough indeed...\nCan you manage to get $500 in your bank account so you can escape to a low-cost island to make your games at peace?",
 	sanity_mod: 0,
 	wallet_mod: 5,
 	income_mod: 1,
 	expenses_mod: 10
 };
+
+// game finished event
+game_finished_event = {
+	title: "Released!",
+	text: "You spent quite some time making your dream game and it is out now! Whether it makes money or not you don't care. YOU MADE A GAME!",
+	sanity_mod: 0,
+	wallet_mod: 0,
+	income_mod: 1,
+	expenses_mod: 0
+};
+
+random_events = [
+	{
+		title: "You had a baby!",
+		text: "You brave soul! You decided to grow your family and while this is a great blessing, babies come with some responsibilities...",
+		sanity_mod: -10,
+		wallet_mod: -100,
+		income_mod: 0,
+		expenses_mod: 30
+	},
+	{
+		title: "You are promoted!",
+		text: "It might be that you are working hard, or just that your company wants to keep you with them, but you just got promoted. Congratulations!",
+		sanity_mod: 0,
+		wallet_mod: 5,
+		income_mod: 2,
+		expenses_mod: 0
+	},
+	{
+		title: "You had to buy it...",
+		text: "You saw a great deal on a pizza oven. Will you use it? who knows! But you just had to have it!",
+		sanity_mod: 0,
+		wallet_mod: -15,
+		income_mod: 0,
+		expenses_mod: 0
+	},
+	{
+		title: "Ahoy Mateys!",
+		text: "You've always wanted a boat and you just couldn't wait any longer. You bought a precious vessel using your credit card and didn't even look at your bank account. All aboard!",
+		sanity_mod: 0,
+		wallet_mod: -100,
+		income_mod: 0,
+		expenses_mod: 0
+	},
+	{
+		title: "Happy Birthday!",
+		text: "Another trip around the sun and you're still here! Your old man loves you so much that he sent you a gift card through a very sketchy mail company. Enjoy!",
+		sanity_mod: 0,
+		wallet_mod: 20,
+		income_mod: 0,
+		expenses_mod: 0
+	},
+];

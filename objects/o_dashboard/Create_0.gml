@@ -36,11 +36,11 @@ work_income = 0;
 work_base_dmg = 0.015;
 work_dmg = 0;
 
-var game_hours_duration = 24 * 2;
+var game_hours_duration = 48;
 game_base_counter = hour * game_hours_duration;
 game_counter = game_base_counter;
 prev_game_income = 5;
 game_income_range_up = 1;
 game_income_range_down = game_income_range_up / 2;
 
-win_score = 100;
+win_score = 500;

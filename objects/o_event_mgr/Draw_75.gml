@@ -74,7 +74,7 @@ if is_showing_event {
 	#region Draw effects
 	
 	var effect_x = x0 + default_border + window_padding;
-	var effect_y_start = y1 - window_padding - default_border - 200;
+	var effect_y_start = y1 - window_padding - default_border - 150;
 	var effect_jump = f_size + 20;
 	
 	// sanity mod
