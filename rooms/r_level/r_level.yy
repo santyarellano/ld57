@@ -18,9 +18,13 @@
     {"name":"inst_6D7CA870","path":"rooms/r_level/r_level.yy",},
     {"name":"inst_25749ED9","path":"rooms/r_level/r_level.yy",},
     {"name":"inst_51762B70","path":"rooms/r_level/r_level.yy",},
+    {"name":"inst_1963F85C","path":"rooms/r_level/r_level.yy",},
   ],
   "isDnd":false,
   "layers":[
+    {"$GMRInstanceLayer":"","%Name":"events","depth":-100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_1963F85C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1963F85C","objectId":{"name":"o_event_mgr","path":"objects/o_event_mgr/o_event_mgr.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-32.0,},
+      ],"layers":[],"name":"events","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"gui","depth":0,"effectEnabled":true,"effectType":"none","gridX":2,"gridY":2,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_61778FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_61778FC","objectId":{"name":"o_keyboard","path":"objects/o_keyboard/o_keyboard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.9795916,"scaleY":2.142857,"x":78.5102,"y":104.0,},
         {"$GMRInstance":"v1","%Name":"inst_5A3EF4C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A3EF4C7","objectId":{"name":"o_button_work","path":"objects/o_button_work/o_button_work.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.7,"scaleY":0.7,"x":40.0,"y":102.0,},

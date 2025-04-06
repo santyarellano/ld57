@@ -54,6 +54,7 @@
     {"id":{"name":"o_desk_spot","path":"objects/o_desk_spot/o_desk_spot.yy",},},
     {"id":{"name":"o_desk","path":"objects/o_desk/o_desk.yy",},},
     {"id":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},},
+    {"id":{"name":"o_event_mgr","path":"objects/o_event_mgr/o_event_mgr.yy",},},
     {"id":{"name":"o_game_over_mgr","path":"objects/o_game_over_mgr/o_game_over_mgr.yy",},},
     {"id":{"name":"o_game_progress","path":"objects/o_game_progress/o_game_progress.yy",},},
     {"id":{"name":"o_gnoble","path":"objects/o_gnoble/o_gnoble.yy",},},
