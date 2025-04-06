@@ -21,5 +21,16 @@ function finished_game(wallet_mod) {
 }
 
 function day_event() {
-	
+	var has_event = choose(true, false);
+	if has_event {
+		// choose event
+		var list = o_event_mgr.random_events;
+		var list_len = array_length(list);
+		var event_idx = irandom(list_len-1);
+		var event = list[event_idx];
+		
+		// use it
+		o_event_mgr.is_showing_event = true;
+		o_event_mgr.event = event;
+	}
 }

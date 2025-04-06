@@ -27,7 +27,7 @@ wallet_dmg = 0.0;
 sleep_base_heal = 0.06;
 sleep_heal = 0;
 
-var tick_duration_secs = 1.5;
+var tick_duration_secs = 0.75;
 hour = game_get_speed(gamespeed_fps) * tick_duration_secs; // fps * X = X seconds
 clock_counter = hour;
 
@@ -43,4 +43,4 @@ prev_game_income = 5;
 game_income_range_up = 1;
 game_income_range_down = game_income_range_up / 2;
 
-win_score = 500;
+win_score = 100;

@@ -9,3 +9,12 @@ global.w_height = window_get_height();
 // Misc
 global.pause = false;
 randomize();
+
+// Music
+enum MUSIC_STATE {
+	Off,
+	Intro,
+	Loop
+}
+
+music_state = MUSIC_STATE.Off;

@@ -15,6 +15,9 @@ if !global.pause {
 		
 			// update wallet
 			wallet -= expenses;
+			
+			// random event
+			day_event();
 		}
 	}
 

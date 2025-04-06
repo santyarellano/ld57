@@ -76,6 +76,8 @@
     {"id":{"name":"scr_helpers","path":"scripts/scr_helpers/scr_helpers.yy",},},
     {"id":{"name":"scr_transitions","path":"scripts/scr_transitions/scr_transitions.yy",},},
     {"id":{"name":"scr_ui_helpers","path":"scripts/scr_ui_helpers/scr_ui_helpers.yy",},},
+    {"id":{"name":"sndtrack_intro","path":"sounds/sndtrack_intro/sndtrack_intro.yy",},},
+    {"id":{"name":"sndtrack_loop","path":"sounds/sndtrack_loop/sndtrack_loop.yy",},},
     {"id":{"name":"s_bed","path":"sprites/s_bed/s_bed.yy",},},
     {"id":{"name":"s_burt_idle","path":"sprites/s_burt_idle/s_burt_idle.yy",},},
     {"id":{"name":"s_burt_sleep","path":"sprites/s_burt_sleep/s_burt_sleep.yy",},},

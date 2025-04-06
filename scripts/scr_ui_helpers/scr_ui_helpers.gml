@@ -43,7 +43,7 @@ function draw_event(positive_bad, event_mod, mod_name, x0, y0, scale) {
 	var event_sign = sign(event_mod);
 	var sign_text = "+";
 	if event_sign < 0 {
-		sign_text = "-";	
+		sign_text = "";	
 	}
 	
 	// choose color according to value and if positive is bad
