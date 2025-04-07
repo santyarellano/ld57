@@ -43,4 +43,4 @@ prev_game_income = 10;
 game_income_range_up = 1;
 game_income_range_down = game_income_range_up / 2;
 
-win_score = 100;
+win_score = 300;

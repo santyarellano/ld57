@@ -35,7 +35,7 @@ random_events = [
 	{
 		title: "You are promoted!",
 		text: "It might be that you are working hard, or just that your company wants to keep you with them, but you just got promoted. Congratulations!",
-		sanity_mod: -1,
+		sanity_mod: 0,
 		wallet_mod: 5,
 		income_mod: 3,
 		expenses_mod: 0
@@ -52,7 +52,7 @@ random_events = [
 		title: "Ahoy Mateys!",
 		text: "You've always wanted a boat and you just couldn't wait any longer. You bought a precious vessel using your credit card and didn't even look at your bank account. All aboard!",
 		sanity_mod: 0,
-		wallet_mod: -50,
+		wallet_mod: -100,
 		income_mod: 0,
 		expenses_mod: 0
 	},
@@ -60,7 +60,7 @@ random_events = [
 		title: "Happy Birthday!",
 		text: "Another trip around the sun and you're still here! Your old man loves you so much that he sent you a gift card through a very sketchy mail company. Enjoy!",
 		sanity_mod: 0,
-		wallet_mod: 20,
+		wallet_mod: 15,
 		income_mod: 0,
 		expenses_mod: 0
 	},
@@ -68,7 +68,7 @@ random_events = [
 		title: "I can't miss out!",
 		text: "Your dream boy band is coming to town and you NEEDED to go see them! You had a blast!",
 		sanity_mod: 0,
-		wallet_mod: -5,
+		wallet_mod: -20,
 		income_mod: 0,
 		expenses_mod: 0
 	},
@@ -92,7 +92,7 @@ random_events = [
 		title: "You got a sponsor!",
 		text: "A family friend saw your games and liked them so much that she gave you some money to finance your next game. Thank you so much!",
 		sanity_mod: 0,
-		wallet_mod: 30,
+		wallet_mod: 50,
 		income_mod: 0,
 		expenses_mod: 0
 	},
@@ -102,14 +102,6 @@ random_events = [
 		sanity_mod: 80,
 		wallet_mod: 0,
 		income_mod: 0,
-		expenses_mod: 0
-	},
-	{
-		title: "Salary adjustment!",
-		text: "The economy is crazy right now. Inflation all around! Your company adjusts your salary in attempts to catch up!",
-		sanity_mod: 0,
-		wallet_mod: 0,
-		income_mod: 1,
 		expenses_mod: 0
 	},
 ];
