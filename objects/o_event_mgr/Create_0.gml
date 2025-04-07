@@ -28,16 +28,16 @@ random_events = [
 		title: "You had a baby!",
 		text: "You brave soul! You decided to grow your family and while this is a great blessing, babies come with some responsibilities...",
 		sanity_mod: -10,
-		wallet_mod: -30,
+		wallet_mod: -15,
 		income_mod: 0,
-		expenses_mod: 30
+		expenses_mod: 15
 	},
 	{
 		title: "You are promoted!",
 		text: "It might be that you are working hard, or just that your company wants to keep you with them, but you just got promoted. Congratulations!",
-		sanity_mod: 0,
+		sanity_mod: -1,
 		wallet_mod: 5,
-		income_mod: 2,
+		income_mod: 3,
 		expenses_mod: 0
 	},
 	{
@@ -52,7 +52,7 @@ random_events = [
 		title: "Ahoy Mateys!",
 		text: "You've always wanted a boat and you just couldn't wait any longer. You bought a precious vessel using your credit card and didn't even look at your bank account. All aboard!",
 		sanity_mod: 0,
-		wallet_mod: -100,
+		wallet_mod: -50,
 		income_mod: 0,
 		expenses_mod: 0
 	},
@@ -92,16 +92,24 @@ random_events = [
 		title: "You got a sponsor!",
 		text: "A family friend saw your games and liked them so much that she gave you some money to finance your next game. Thank you so much!",
 		sanity_mod: 0,
-		wallet_mod: 50,
+		wallet_mod: 30,
 		income_mod: 0,
 		expenses_mod: 0
 	},
 	{
 		title: "Coffee!",
-		text: "What a great way to start your day! Espresso Macchiato",
+		text: "What a great way to start your day! Espresso Macchiato... Mi amore!",
 		sanity_mod: 80,
 		wallet_mod: 0,
 		income_mod: 0,
+		expenses_mod: 0
+	},
+	{
+		title: "Salary adjustment!",
+		text: "The economy is crazy right now. Inflation all around! Your company adjusts your salary in attempts to catch up!",
+		sanity_mod: 0,
+		wallet_mod: 0,
+		income_mod: 1,
 		expenses_mod: 0
 	},
 ];

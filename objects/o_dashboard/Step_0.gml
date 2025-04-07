@@ -86,12 +86,18 @@ if !global.pause {
 	// check if game over
 	if sanity <= 0 {
 		// game over
+		if !audio_is_playing(fx_defeat) {
+			audio_play_sound(fx_defeat, 5, false);
+		}
 		transition_goto_room(r_game_over);
 	}
 
 	// check if won the game
 	if wallet >= win_score {
 		// win
+		if !audio_is_playing(fx_victory) {
+			audio_play_sound(fx_victory, 5, false);
+		}
 		transition_goto_room(r_victory);
 	}
 

@@ -18,6 +18,9 @@ function finished_game(wallet_mod) {
 	var event = o_event_mgr.game_finished_event;
 	event.wallet_mod = wallet_mod;
 	o_event_mgr.event = event;
+	
+	// play sound
+	audio_play_sound(fx_game_complete, 5, false);
 }
 
 function day_event() {
@@ -32,5 +35,8 @@ function day_event() {
 		// use it
 		o_event_mgr.is_showing_event = true;
 		o_event_mgr.event = event;
+		
+		// play sound
+		audio_play_sound(fx_event, 5, false);
 	}
 }
